@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+            <title>Shukri Perfumes Contact</title>
+            <link rel = "icon" href ="pic/logos/shukri01.png" type = "image/x-icon">
+            <meta name="description" content="Shukri Perfumes">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    
+    </head>
+    <style>
+    .slideshow {
+  position: relative;
+  overflow: hidden;
+}
+.images {
+  background: url(slideshow.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 10s linear infinite;
+}
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
+    .images {
+  ...
+   
+  /* Hey browser, use your GPU */
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes moveSlideshow {  
+  100% { 
+    -webkit-transform: translateX(-200%);  
+  }
+}
+    
+    .slideshow:hover .images {
+  animation-duration: 5s;
+} 
+  .tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(pic/logos/shukri01.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+    </style>
+<body>
+       <a href="index.html">
+  <img class="center" src="pic/logos/shukri01.png" alt="HTML tutorial" style="width:320px;height:320px;"><br>
+</a>
+         
+        
+        
+
+
+<div class="navbar">
+  <a href="index.html" class="active">Home<i class="fa fa-fw fa-home"></i></a>
+  <a href="Contact.html">Contact <i class="fa fa-fw fa-envelope"></i></a>
+  <a href="Location.html" >Find us <i class="fa fa-map-marker"></i></a>
+  <a href="About.html" >About us <i class="fa fa-fw fa-user"></i></a><br>
+</div>
+        
+        
+      <div class="s2">
+            Contact Us In
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="slideshow">
+   <div class="images">
+     
+   </div>
+</div>
+    
+    <div class="slideshow">
+   <div class="images-1">
+  <img src="pic/logos/shukri01.png">
+   </div>
+   <div class="images-2">
+   </div>
+</div>
+    
+    <div class="tech-slideshow">
+  <div class="mover-1"></div>
+  <div class="mover-2"></div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <footer>
+   Copyright 2021 &copy; Shukri Perfumes . All Rights Reserved.<br>
+                            Designed by &#64;Ebrahim Al-Shaibani
+                            
+        </footer>
+</body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
